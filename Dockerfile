@@ -32,3 +32,5 @@ COPY poetry.lock pyproject.toml ./
 COPY ./ ./
 
 RUN poetry install
+
+CMD ["sh", "start.sh"]
