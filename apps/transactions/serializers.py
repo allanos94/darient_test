@@ -1,4 +1,3 @@
-# from apps.transactions.fields import HybridImageField
 from drf_extra_fields.fields import HybridImageField
 from rest_framework import serializers
 
