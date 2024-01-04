@@ -40,6 +40,7 @@ THIRD_PARTY_APPS = [
     "djoser",
     "rest_framework_simplejwt",
     "rest_framework_simplejwt.token_blacklist",
+    "drf_yasg",
 ]
 
 DJANGO_APPS = [
