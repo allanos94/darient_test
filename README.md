@@ -31,21 +31,25 @@ pip install poetry
 poetry install
 ```
 
-5. Con esto ya podrás ejecutar el proyecto:
+5. Debes crear un superusuario para poder acceder a los endpoints del microservicio:
+
+```bash
+python manage.py createsuperuser
+```
+
+6. Con esto ya podrás ejecutar el proyecto:
 
 ```bash
 python manage.py runserver
 ```
 
-6. Para ejecutar con docker-compose:
-
-```bash
-docker-compose up
-```
+7. Para ejecutar con docker-compose:
 
 ```bash
 docker-compose -f docker-compose.yml  --env-file=.env up
 ```
+
+8. Te recomendamos apoyarte en el modo debug para poder ejecutar los comandos de Django de manera más sencilla y con la funcionalidad del Debugger.
 
 ## Uso
 
