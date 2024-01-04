@@ -33,4 +33,6 @@ COPY ./ ./
 
 RUN poetry install
 
+EXPOSE 8000
+
 CMD ["sh", "start.sh"]
